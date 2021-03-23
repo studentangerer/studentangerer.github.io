@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lightcoral;
 }
 
 .container{
@@ -16,7 +17,7 @@
     margin:10px;
 }
 
-@media(max-width: 600px){
+@media(orientation: portrait){
     .eingabe{
         width: 90%;
     }
