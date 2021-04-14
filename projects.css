@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p1{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.p2{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        
+}
+p2:hover {
+    border-style: solid;
+    background-color: blue;
+}
+
+
+img {
+    width: 39%;
+}
+
+p {
+    box-sizing: border-box;
+    border-width: 20px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+@media screen and (orientation: portrait) {
+    p {
+        font-size: 200%;
+        color: blueviolet;
+    }
+
+}
